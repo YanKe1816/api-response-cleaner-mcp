@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Support</title>
+  <style>
+    :root {
+      --bg: #f7f4ef;
+      --panel: #fffdfa;
+      --text: #1f2933;
+      --muted: #52606d;
+      --accent: #8b5e34;
+      --border: #dccfbd;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, #fff7ed 0%, transparent 28%),
+        linear-gradient(180deg, #efe7da 0%, var(--bg) 100%);
+    }
+    main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 48px 20px 72px;
+    }
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 32px;
+      box-shadow: 0 12px 32px rgba(31, 41, 51, 0.08);
+    }
+    h1, h2 {
+      line-height: 1.15;
+      margin-top: 0;
+    }
+    p { line-height: 1.6; color: var(--muted); }
+    a {
+      color: var(--accent);
+    }
+    nav {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-top: 24px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+    }
+    .eyebrow {
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-size: 0.8rem;
+      color: var(--accent);
+      margin-bottom: 12px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="panel">
+      <div class="eyebrow">Support</div>
+      <h1>Support</h1>
+      <p>If you need help with the API Response Cleaner App, contact <a href="mailto:sidcraigau@gmail.com">sidcraigau@gmail.com</a>.</p>
+
+      <h2>How to Reach Support</h2>
+      <p>Email your question or issue to <a href="mailto:sidcraigau@gmail.com">sidcraigau@gmail.com</a>. Include the raw response you submitted, the target fields you requested, and the actual result you received.</p>
+
+      <h2>Appropriate Use Guidelines</h2>
+      <p>Submit only structured JSON-like objects intended for deterministic field filtering. Do not use this App to request summaries, recommendations, or generated values. This App only extracts requested fields and reports missing or removed fields.</p>
+
+      <h2>Feedback and Issue Reports</h2>
+      <p>If you encounter a problem, send feedback with a short description of the issue, the expected cleaned output, and the actual output. This helps reproduce and review the issue quickly.</p>
+
+      <nav>
+        <a href="/">Home</a>
+        <a href="/privacy">Privacy</a>
+        <a href="/terms">Terms</a>
+        <a href="/support">Support</a>
+      </nav>
+    </section>
+  </main>
+</body>
+</html>
